@@ -14,3 +14,10 @@
         - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method"
     -  The implmentation of our approach SCOPE
         - see the file "**SCOPE.py**" and use the mothod "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping.
+        
+        
+        
+        
+- Other results:
+    - cold starts for SCOPE 2 in different numbers of repetitions of the run interval:
+    <img width="581" alt="image" src="https://user-images.githubusercontent.com/79156929/227688371-cd362c4f-42f4-4ebc-8aa7-e8a54d028858.png">
