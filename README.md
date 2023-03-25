@@ -28,7 +28,7 @@
         
         - different numbers of repetitions of the run interval: PT4Cloud, Meitor
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689777-1f6efa89-b240-48b4-b3f5-075e3f4e1081.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689371-a55d03ab-d739-4496-9576-39e135fe9ec1.png">
+            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689815-3a433bef-5860-4eca-8f15-9d4a6480efc9.png">
         
         - different constrains of our stop criterion: SCOPE 1, SCOPE 2, SCOPE 3
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689416-5c02c6a1-e523-4100-b35c-5516a65e4b00.png">
