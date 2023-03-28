@@ -466,7 +466,7 @@ if __name__ == "__main__":
     # print(x)
 
     # the number of performance data to be tested
-    test_number = 500
+    test_number = 50
 
     # read the corresponding performance data, 1 represents the column titile, removing it
     testData = x[1:test_number+1] 
