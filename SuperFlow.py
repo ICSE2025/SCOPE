@@ -490,7 +490,7 @@ if __name__ == "__main__":
     #-------------------------------------------------
 
     CImethod1 = "general"
-    print("************SCOPE 1 - General method:{}".format(CImethod1))
+    print("************SuperFlow 1 - General method:{}".format(CImethod1))
     result = determineStopRun(testData, interval, CImethod1, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
@@ -498,7 +498,7 @@ if __name__ == "__main__":
 
 
     CImethod2="bootstrapping"
-    print("************SCOPE 2 - Basic Boostrapping method:{}".format(CImethod2))
+    print("************SuperFlow 2 - Basic Boostrapping method:{}".format(CImethod2))
     result = determineStopRun(testData, interval, CImethod2, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
@@ -506,7 +506,7 @@ if __name__ == "__main__":
 
 
     CImethod3 = "block bootstrapping"
-    print("************SCOPE 3 - Block Boostrapping method:{}".format(CImethod3))
+    print("************SuperFlow 3 - Block Boostrapping method:{}".format(CImethod3))
     result = determineStopRun(testData, interval, CImethod3, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
