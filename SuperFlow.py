@@ -480,10 +480,10 @@ if __name__ == "__main__":
     # the number of repetitions of the run interval
     interval = 5
 
-    # the confidence level, used in SCOPE
+    # the confidence level, used in SuperFlow
     confidence_level = 0.95
 
-    # SCOPE's error demand of the stop condition
+    # SuperFlow's error demand of the stop condition
     error_bound = 0.01
 
 
