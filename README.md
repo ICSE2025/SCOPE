@@ -4,12 +4,16 @@
     - The details of relevant research papers (59 papers): 
         - see the file "Relevant Research Papers.xlsx", containing CSRankings category, conference, publication venue, and paper titile.
     - The details of relevant serverless functions (65 serverless functions):
-        - see the file "Relevant Serverless Functions.xlsx", containing function name, tested input, executed serverless platform, programming language, timeout time, memory size, **code link**, corresponding research papers.
+        - see the file "Relevant Serverless Functions.xlsx", containing function name, tested input, executed serverless platform, programming language, timeout time, memory size, code link, corresponding research papers.
         - see the directory “input”, containing the large tested inputs for specific serverless functions.
+    - We made publicly available the deployment packages about 65 serverless functions.
+        - see the directory "Deployment Packages", containing func1 to func65.
+        - see the directory "input", containing long input payload about func20, func29, func54, func56, func57, and func60.
     - The performance data of serverless functions:
         - see the file "Performance Data.xlsx", containing 1,000 points about performance results for each serverless function.
 
 - Code：
+    - Function invocation scripts are included in the directory "scripts", which have the invocation code to AWS Lambda and Google Cloud Functions.
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
         - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method". Moreovre, **the evaluation of testing results is included in the function definition -   identidyEffectiveness.**
     -  The implmentation of our approach SuperFlow
