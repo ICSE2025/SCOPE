@@ -11,9 +11,9 @@
 
 - Code：
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
-        - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method"
+        - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method". Moreovre, **the evaluation of testing results is included.**
     -  The implmentation of our approach SuperFlow
-        - see the file "**SuperFlow.py**" and use the mothod "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping.
+        - see the file "**SuperFlow.py**" and use the mothod "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping. Moreovre, **the evaluation of testing results is included.**
         
         
         
