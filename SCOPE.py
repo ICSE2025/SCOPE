@@ -12,7 +12,7 @@ from recombinator.optimal_block_length import optimal_block_length
 def determineStopRun(data, interval, CImethod, confidence_level, error_bound):
 
     Data_Size = len(data)
-    # check new distribution if its number of data is greater than interval
+    # check new distribution if its number of data is greater than the interval
     if Data_Size < interval:
         print("newly added data is not enough!")
         return 0
@@ -260,7 +260,7 @@ def distSimilarity(data1, data2):
 
 def isNarrowCI_bootstrap(data, confidence_level, error_bound, metricValue):
     """
-    the accuracy check about basic bootstarpping method of confidence interval
+    the accuracy check about basic bootstrapping method of the confidence interval
     """
 
     # calculate the confidence interval
@@ -284,7 +284,7 @@ def isNarrowCI_bootstrap(data, confidence_level, error_bound, metricValue):
 
 def isNarrowCI_general(data, confidence_level, error_bound, metricValue):
     """
-    the accuracy check about general calculation method of confidence interval
+    the accuracy check about the general calculation method of the confidence interval
     """
     low, top = calculateTopLow(len(data), confidence_level, metricValue)
     
@@ -330,7 +330,7 @@ def calculateTopLow(n, confidence_level, metricValue):
 
 def CI_bootstrap(data, confidence_level, metricValue):
     """
-    obtain the top and bottom bounds for basic bootstrap method
+    obtain the top and bottom bounds for the basic bootstrap method
     """
     bootstrap_metric=[]
     for k in range(1000):
@@ -382,7 +382,7 @@ def gen_mvwin_blocks(data, block_length):
 
 def isNarrowCI_blockbootstrap(data, confidence_level, error_bound, metricValue):
     """
-    the accuracy check about block bootstrapoing method of confidence interval
+    the accuracy check about the block bootstrapping method of confidence interval
     """
 
     lo_CI, hi_CI = CI_blockbootstrap(data, confidence_level, metricValue)
@@ -403,7 +403,7 @@ def isNarrowCI_blockbootstrap(data, confidence_level, error_bound, metricValue):
 
 def CI_blockbootstrap(data, confidence_level, metricValue):
     """
-    the top and bottom of confidence interval of block bootstrapping method
+    the top and bottom of the confidence interval of the block bootstrapping method
     """
     block_length_bound = 1
     try:
@@ -468,7 +468,7 @@ if __name__ == "__main__":
     # the number of performance data to be tested
     test_number = 50
 
-    # read the corresponding performance data, 1 represents the column titile, removing it
+    # read the corresponding performance data, 1 represents the column title, removing it
     testData = x[1:test_number+1] 
 
 
@@ -490,7 +490,7 @@ if __name__ == "__main__":
     #-------------------------------------------------
 
     CImethod1 = "general"
-    print("************SuperFlow 1 - General method:{}".format(CImethod1))
+    print("************SCOPE 1 - General method:{}".format(CImethod1))
     result = determineStopRun(testData, interval, CImethod1, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
@@ -498,7 +498,7 @@ if __name__ == "__main__":
 
 
     CImethod2="bootstrapping"
-    print("************SuperFlow 2 - Basic Boostrapping method:{}".format(CImethod2))
+    print("************SCOPE 2 - Basic Bootstrapping method:{}".format(CImethod2))
     result = determineStopRun(testData, interval, CImethod2, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
@@ -506,7 +506,7 @@ if __name__ == "__main__":
 
 
     CImethod3 = "block bootstrapping"
-    print("************SuperFlow 3 - Block Boostrapping method:{}".format(CImethod3))
+    print("************SCOPE 3 - Block Bootstrapping method:{}".format(CImethod3))
     result = determineStopRun(testData, interval, CImethod3, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
