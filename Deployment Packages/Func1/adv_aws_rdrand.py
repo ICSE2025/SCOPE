@@ -9,7 +9,6 @@ import psutil
 import platform
 from datetime import datetime
 
-
 def get_size(bytes, suffix="B"):
     """
     Scale bytes to its proper format
