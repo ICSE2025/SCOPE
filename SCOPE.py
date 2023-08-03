@@ -109,7 +109,7 @@ def determineStopRun(data, interval, CImethod, confidence_level, error_bound):
 
 
 
-def identidyEffectiveness(data, totalData, confidence_level):
+def identifyEffectiveness(data, totalData, confidence_level):
 
     print("tested data has {} points".format(len(data)))
     print("total data has {} points".format(len(totalData)))
@@ -494,7 +494,7 @@ if __name__ == "__main__":
     result = determineStopRun(testData, interval, CImethod1, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
-        identidyEffectiveness(testData, totalData, confidence_level)
+        identifyEffectiveness(testData, totalData, confidence_level)
 
 
     CImethod2="bootstrapping"
@@ -502,7 +502,7 @@ if __name__ == "__main__":
     result = determineStopRun(testData, interval, CImethod2, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
-        identidyEffectiveness(testData, totalData, confidence_level)
+        identifyEffectiveness(testData, totalData, confidence_level)
 
 
     CImethod3 = "block bootstrapping"
@@ -510,7 +510,7 @@ if __name__ == "__main__":
     result = determineStopRun(testData, interval, CImethod3, confidence_level, error_bound)
     if result == "Yes":
         # evaluate the accuracy and credibility
-        identidyEffectiveness(testData, totalData, confidence_level)
+        identifyEffectiveness(testData, totalData, confidence_level)
 
 
 
