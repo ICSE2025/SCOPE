@@ -14,7 +14,6 @@ def run_cmd(cmd):
 
 
 
-
 def getLog(invocation_num, func_name):
     # obtain function execution time according to the latest invocation
     # invocation_num =1 is the newest duration time, invocation_num=3 is results of the first three calls
