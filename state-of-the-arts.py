@@ -74,7 +74,7 @@ def ase21method(data, interval, object_accu):
 
 
 
-def identidyEffectiveness(data, totalData, confidence_level):
+def identifyEffectiveness(data, totalData, confidence_level):
 
     print("tested data has {} points".format(len(data)))
     print("total data has {} points".format(len(totalData)))
@@ -420,7 +420,7 @@ if __name__ == "__main__":
     result = fse19method(testData, interval, thresholdSim)
     if result == "Yes":
         # evaluate the accuracy and credibility
-        identidyEffectiveness(testData, totalData, confidence_level)
+        identifyEffectiveness(testData, totalData, confidence_level)
 
 
 
@@ -428,5 +428,5 @@ if __name__ == "__main__":
     result = ase21method(testData, interval, object_accu)
     if result == "Yes":
         # evaluate the accuracy and credibility
-        identidyEffectiveness(testData, totalData, confidence_level)
+        identifyEffectiveness(testData, totalData, confidence_level)
 
