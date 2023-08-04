@@ -5,7 +5,6 @@
         - see the file "Relevant Research Papers.xlsx", containing CSRankings category, conference, publication venue, and paper title.
     - The details of relevant serverless functions (65 serverless functions):
         - see the file "Relevant Serverless Functions.xlsx", containing function name, tested input, executed serverless platform, programming language, timeout time, memory size, code link, and corresponding research papers.
-        - see the directory “input”, containing the large tested inputs for specific serverless functions.
     - We made publicly available the deployment packages about 65 serverless functions.
         - see the directory "Deployment Packages", containing func1 to func65.
         - see the directory "input", containing the long input payload about func20, func29, func54, func56, func57, and func60.
