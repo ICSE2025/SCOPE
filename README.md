@@ -13,6 +13,8 @@
 
 - Code：
     - Function invocation scripts are included in the directory "**scripts**", which have the invocation code to AWS Lambda and Google Cloud Functions.
+      - "**invokeAWSFunction-run1.py**" and **invokeAWSFunction-run2.py**" are the scripts that invoke serverless functions executed on AWS Lambda
+      - "**invokeGoogleFunction.py**" is the script that invokes serverless functions executed on Google Cloud Functions
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
         - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method". Moreover, **the evaluation of testing results is included in the function definition - identifyEffectiveness.**
     -  The implementation of our approach SCOPE
