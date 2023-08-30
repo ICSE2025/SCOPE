@@ -12,7 +12,7 @@
         - see the file "**Performance Data.xlsx**", containing 1,000 points about performance results for each serverless function.
 
 - Code：
-    - Function invocation scripts are included in the directory "**scripts**", which have the invocation code to AWS Lambda and Google Cloud Functions.
+    - Invocation scripts about serverless functions are included in the directory "**scripts**", which have the invocation code for serverless functions hosted in serverless platforms (AWS Lambda and Google Cloud Functions).
       - "**invokeAWSFunction-run1.py**" and **invokeAWSFunction-run2.py**" are the scripts that invoke serverless functions executed on AWS Lambda
       - "**invokeGoogleFunction.py**" is the script that invokes serverless functions executed on Google Cloud Functions
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
@@ -21,7 +21,7 @@
         - see the file "**SCOPE.py**" and use the method "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping. Moreover, **the evaluation of testing results is included in the function definition - identifyEffectiveness.**
         
         
-- Other results:
+- Other figure results:
     - Cold starts for SCOPE 2 in different numbers of repetitions of the run interval:
         - <img width="581" alt="image" src="https://user-images.githubusercontent.com/79156929/227688371-cd362c4f-42f4-4ebc-8aa7-e8a54d028858.png">
     - Warm starts:
