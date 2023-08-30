@@ -8,7 +8,6 @@ import numpy.random as npr
 from recombinator.optimal_block_length import optimal_block_length
 
 
-
 def determineStopRun(data, interval, CImethod, confidence_level, error_bound):
 
     Data_Size = len(data)
