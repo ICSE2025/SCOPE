@@ -3,13 +3,13 @@
 - Data:
     - The details of serverless functions from an existing dataset (65 serverless functions):
         - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
-    - We made publicly available the deployment packages about the used 65 serverless functions.
-        - see the directory "**Deployment Packages**", containing func1 to func65.
-        - see the included directory "**input**", containing the long input payload about func20, func29, func54, func56, func57, and func60.
     - The performance data of serverless functions:
         - see the file "**Performance Data.xlsx**", containing 1,000 points about performance results for each serverless function.
 
 - Code：
+    - We made publicly available the deployment packages about the used 65 serverless functions.
+        - see the directory "**Deployment Packages**", containing the code from func1 to func65.
+        - see the included directory "**input**", containing the long input payload about func20, func29, func54, func56, func57, and func60.
     - Invocation scripts about serverless functions are included in the directory "**scripts**", which have the invocation code for serverless functions hosted in serverless platforms (AWS Lambda and Google Cloud Functions).
       - "**invokeAWSFunction-run1.py**" and **invokeAWSFunction-run2.py**" are the scripts that invoke serverless functions executed on AWS Lambda
       - "**invokeGoogleFunction.py**" is the script that invokes serverless functions executed on Google Cloud Functions
