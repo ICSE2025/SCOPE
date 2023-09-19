@@ -7,7 +7,7 @@
         - see the file "**Performance Data.xlsx**", containing 1,000 points about performance results for each serverless function.
 
 - Code：
-    - We made publicly available the deployment packages about the used 65 serverless functions.
+    - We made publicly available the deployment packages for the 65 serverless functions we used.
         - see the directory "**Deployment Packages**", containing the code from func1 to func65.
         - see the included directory "**input**", containing the long input payload sample about func20, func29, func54, func56, func57, and func60.
     - Invocation scripts about serverless functions are included in the directory "**scripts**", which have the invocation code for serverless functions hosted in serverless platforms (AWS Lambda and Google Cloud Functions).
