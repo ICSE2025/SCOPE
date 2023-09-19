@@ -2,7 +2,7 @@
 
 - Dataset:
     - The details of serverless functions from an existing dataset (65 serverless functions):
-        - see the file "**Relevant Serverless Functions.xlsx**", containing the function name, tested input, executed serverless platform, programming language, timeout time, memory size, and code link.
+        - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
     - We made publicly available the deployment packages about the used 65 serverless functions.
         - see the directory "**Deployment Packages**", containing func1 to func65.
         - see the included directory "**input**", containing the long input payload about func20, func29, func54, func56, func57, and func60.
