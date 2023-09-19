@@ -14,20 +14,20 @@
       - "**invokeAWSFunction-run1.py**" and **invokeAWSFunction-run2.py**" are the scripts that invoke serverless functions executed on AWS Lambda
       - "**invokeGoogleFunction.py**" is the script that invokes serverless functions executed on Google Cloud Functions
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
-        - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method". Moreover, **the evaluation of testing results is included in the function definition - identifyEffectiveness.**
+        - see the file "**state-of-the-arts.py**" and use the methods "fse19method" and "ase21method". Moreover, **the evaluation of testing results is in the method - identifyEffectiveness.**
     -  The implementation of our approach SCOPE
-        - see the file "**SCOPE.py**" and use the method "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping. Moreover, **the evaluation of testing results is included in the function definition - identifyEffectiveness.**
+        - see the file "**SCOPE.py**" and use the method "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping. Moreover, **the evaluation of testing results is in the method - identifyEffectiveness.**
         
         
 - Other figure results:
     - Cold starts for SCOPE 2 in different numbers of repetitions of the run interval:
         - <img width="581" alt="image" src="https://user-images.githubusercontent.com/79156929/227688371-cd362c4f-42f4-4ebc-8aa7-e8a54d028858.png">
     - Warm starts:
-        - different constraints of the stop criterion: PT4Cloud, Meitor
+        - different constraints of the stop criterion: PT4Cloud, Metior
             - <img width="433" alt="image" src="https://user-images.githubusercontent.com/79156929/227689330-3dcb1d45-00c3-41c8-a56a-faaef77ab1b6.png">
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689762-c5ca9ae7-efd5-4e7f-a48d-8fb5d9666b34.png">
         
-        - different numbers of repetitions of the run interval: PT4Cloud, Meitor
+        - different numbers of repetitions of the run interval: PT4Cloud, Metior
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689777-1f6efa89-b240-48b4-b3f5-075e3f4e1081.png">
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689815-3a433bef-5860-4eca-8f15-9d4a6480efc9.png">
         
