@@ -1,11 +1,9 @@
 # SCOPE: Performance Testing for Serverless Computing
 
 - Dataset:
-    - The details of relevant research papers (59 papers): 
-        - see the file "**Relevant Research Papers.xlsx**", containing CSRankings category, conference, publication venue, and paper title.
-    - The details of relevant serverless functions (65 serverless functions):
-        - see the file "**Relevant Serverless Functions.xlsx**", containing function name, tested input, executed serverless platform, programming language, timeout time, memory size, code link, and corresponding research papers.
-    - We made publicly available the deployment packages about 65 serverless functions.
+    - The details of serverless functions from an existing dataset (65 serverless functions):
+        - see the file "**Relevant Serverless Functions.xlsx**", containing the function name, tested input, executed serverless platform, programming language, timeout time, memory size, and code link.
+    - We made publicly available the deployment packages about the used 65 serverless functions.
         - see the directory "**Deployment Packages**", containing func1 to func65.
         - see the included directory "**input**", containing the long input payload about func20, func29, func54, func56, func57, and func60.
     - The performance data of serverless functions:
