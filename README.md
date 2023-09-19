@@ -29,7 +29,7 @@
         
         - different numbers of repetitions of the run interval: PT4Cloud, Metior
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689777-1f6efa89-b240-48b4-b3f5-075e3f4e1081.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689815-3a433bef-5860-4eca-8f15-9d4a6480efc9.png">
+            - <img width="434" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/f04d45bd-5a9b-470f-94e7-4c8a898bf42f">
         
         - different constraints of our stop criterion: SCOPE 1, SCOPE 2, SCOPE 3
             - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689416-5c02c6a1-e523-4100-b35c-5516a65e4b00.png">
