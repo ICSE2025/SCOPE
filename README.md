@@ -1,6 +1,6 @@
 # SCOPE: Performance Testing for Serverless Computing
 
-- Dataset:
+- Data:
     - The details of serverless functions from an existing dataset (65 serverless functions):
         - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
     - We made publicly available the deployment packages about the used 65 serverless functions.
