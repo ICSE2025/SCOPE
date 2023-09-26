@@ -4,7 +4,6 @@ import boto3
 import logging
 import threading
 
-
 client = boto3.client(service_name='comprehendmedical',region_name="us-east-1")
 
 def extract_entities_from_message(message):
