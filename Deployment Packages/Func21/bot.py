@@ -20,7 +20,6 @@ from pyutu import PricingContext, check_service, get_prices
 
 print('Loading pyfaqbot function')
 
-
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
 pyutu.client.set_log_level(None)
