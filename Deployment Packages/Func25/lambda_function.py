@@ -16,6 +16,7 @@ from deepspeech import Model#, printVersions
 from timeit import default_timer as timer
 
 
+
 try:
     from shhlex import quote
 except ImportError:
