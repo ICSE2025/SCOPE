@@ -1,12 +1,3 @@
-// 'use strict';
-
-// const epsagon = require('../node_modules/epsagon');
-// epsagon.init({
-//     token: process.env.EPSAGONTOKEN, 
-//     appName: 'vulnerable-hello-retail',
-//     metaDataOnly: false,
-// });
-
 
 function randomPrice() {
     var cents = Math.floor(Math.random() * 100);
