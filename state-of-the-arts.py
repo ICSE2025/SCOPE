@@ -8,7 +8,6 @@ import numpy.random as npr
 from recombinator.optimal_block_length import optimal_block_length
 
 
-
 def fse19method(data, interval, thresholdSim):
 
     Data_Size = len(data)
