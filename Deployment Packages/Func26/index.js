@@ -5,7 +5,6 @@ const util = require('util');
 const Promise = require('bluebird');
 Promise.promisifyAll(gm.prototype);
 
-
 // get reference to S3 client
 const s3 = new AWS.S3();
 
