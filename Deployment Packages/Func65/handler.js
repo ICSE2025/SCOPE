@@ -1,6 +1,5 @@
 'use strict';
 
-
 const ImageAnalyser = require('./lib/imageAnalyser');
 
 /**
