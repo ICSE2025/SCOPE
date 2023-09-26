@@ -3,7 +3,6 @@ import uuid
 from time import time
 from PIL import Image
 
-
 import ops
 
 s3_client = boto3.client('s3')
