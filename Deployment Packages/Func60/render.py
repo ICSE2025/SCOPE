@@ -3,7 +3,6 @@ try:
 except ImportError:
   pass
 
-
 import json
 import numpy as np
 import time
