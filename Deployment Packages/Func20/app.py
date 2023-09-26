@@ -15,6 +15,7 @@ logger.setLevel(logging.INFO)
 rekognition = boto3.client('rekognition')
 s3 = boto3.client('s3')
 
+
 # output_bucket = os.environ['OUTPUT_BUCKET']
 output_bucket = "bucketwendycyn1"
 
