@@ -8,7 +8,6 @@ import re
 import time
 from params import *
 
-
 FFMPEG_STATIC = "var/ffmpeg"
 
 length_regexp = 'Duration: (\d{2}):(\d{2}):(\d{2})\.\d+,'
