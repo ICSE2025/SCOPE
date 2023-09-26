@@ -4,7 +4,6 @@ from tensorflow.python.keras.applications.resnet50 import preprocess_input, deco
 import numpy as np
 import uuid
 from time import time
-
 from squeezenet import SqueezeNet
 
 
