@@ -12,7 +12,6 @@ import multiprocessing
 import io
 from params import *
 
-
 s3_client = boto3.client(
  's3'
 )
