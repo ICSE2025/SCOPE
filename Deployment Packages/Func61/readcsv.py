@@ -3,7 +3,6 @@ import json
 import time
 from util import *
 
-
 def main(event, context):
     startTime = 1000*time.time()
     with open('data/few_reviews.csv') as csvFile:
