@@ -1,6 +1,5 @@
 import json
 
-
 def lambda_handler(event, context):
     if("dummy" in event):
         return {'dummy':'dummy combine, doing nothing'}
