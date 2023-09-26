@@ -1,6 +1,7 @@
 import math
 from time import time
 
+
 def float_operations(n):
     start = time()
     for i in range(0, n):
