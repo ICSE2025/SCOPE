@@ -9,6 +9,7 @@ import re
 import time
 from params import *
 
+
 FFMPEG_STATIC = "var/ffmpeg"
 
 def lambda_handler(event, context):
