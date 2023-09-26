@@ -5,6 +5,7 @@ import uuid
 import boto3
 import sys
 
+
 def handler(context, events):
     proc = subprocess.Popen(["cat /proc/sys/kernel/random/boot_id"], stdout=subprocess.PIPE, shell=True)
     output = ""
