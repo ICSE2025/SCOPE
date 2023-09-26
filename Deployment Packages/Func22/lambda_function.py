@@ -3,7 +3,6 @@ import uuid
 from time import time
 import cv2
 
-
 s3_client = boto3.client('s3')
 
 tmp = "/tmp/"
