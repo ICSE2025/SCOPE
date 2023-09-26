@@ -5,7 +5,6 @@ import logging
 import threading
 import sys
 
-
 def timeout(event, context):
   raise Exception('Execution is about to time out, exiting...')
 
