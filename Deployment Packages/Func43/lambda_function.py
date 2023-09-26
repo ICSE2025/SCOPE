@@ -7,7 +7,6 @@ from numpy import concatenate
 from numpy import savetxt
 import numpy as np
 
-
 import json
 import random
 import time
