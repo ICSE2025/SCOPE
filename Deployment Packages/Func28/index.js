@@ -3,7 +3,6 @@ const S3 = require('aws-sdk/clients/s3');
 const gm = require('gm').subClass({ imageMagick: true }); // Enable ImageMagick integration.
 const util = require('util');
 
-
 // constants
 const MAX_WIDTH = 250;
 const MAX_HEIGHT = 250;
