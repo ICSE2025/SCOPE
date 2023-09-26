@@ -1,12 +1,5 @@
 'use strict';
 
-// const epsagon = require('../node_modules/epsagon');
-// epsagon.init({
-//     token: process.env.EPSAGONTOKEN, 
-//     appName: 'vulnerable-hello-retail',
-//     metaDataOnly: false,
-// });
-
 
 module.exports.main = function(event, context, callback) {
     console.log('Function publish running.');
