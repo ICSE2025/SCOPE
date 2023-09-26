@@ -1,6 +1,5 @@
 'use strict';
 
-
 const fetch = require('node-fetch');
 const AWS = require('aws-sdk'); // eslint-disable-line import/no-extraneous-dependencies
 
