@@ -10,7 +10,6 @@ import zipfile
 import os
 # from params import *
 
-
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 def delete_tmp():
