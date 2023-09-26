@@ -12,7 +12,6 @@ from datetime import datetime
 # import rdrand
 init_ed = time.time() * 1000
 
-
 def hello_world(request):
     fun_st = time.time() * 1000
     result = {}
