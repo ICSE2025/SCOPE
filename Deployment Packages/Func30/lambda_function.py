@@ -3,7 +3,6 @@ import pandas as pd
 from time import time
 import re
 
-
 s3 = boto3.client('s3')
 
 cleanup_re = re.compile('[^a-z]+')
