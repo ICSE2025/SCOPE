@@ -9,7 +9,6 @@
 # PURPOSE.
 # See the Mulan PSL v1 for more details.
 
-
 import boto3
 import time
 import os
