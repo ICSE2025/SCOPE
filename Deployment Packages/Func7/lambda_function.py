@@ -1,6 +1,7 @@
 from numpy import matrix, linalg, random
 from time import time
 
+
 def linpack(n):
     # LINPACK benchmarks
     ops = (2.0 * n) * n * n / 3.0 + (2.0 * n) * n
