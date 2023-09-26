@@ -1,16 +1,16 @@
 # SCOPE: Performance Testing for Serverless Computing
 
 - Data:
-    - The details of serverless functions from an existing dataset (65 serverless functions):
+    - The details of serverless functions from an existing dataset (including 65 serverless functions):
         - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
     - The performance data of serverless functions:
-        - see the file "**Performance Data.xlsx**", containing 1,000 points about performance results for each serverless function.
+        - see the file "**Performance Data.xlsx**", containing 1,000 performance results of each serverless function that is repeatedly executed.
 
 - Code：
     - We made publicly available the deployment packages for the 65 serverless functions we used.
-        - see the directory "**Deployment Packages**", containing the code from func1 to func65.
+        - see the directory "**Deployment Packages**", containing the source code from func1 to func65.
         - see the included directory "**input**", containing the long input payload sample about func20, func29, func54, func56, func57, and func60.
-    - Invocation scripts about serverless functions are included in the directory "**scripts**", which have the invocation code for serverless functions hosted in serverless platforms (AWS Lambda and Google Cloud Functions).
+    - Invocation scripts for serverless functions are included in the directory "**scripts**", which have the invocation code for serverless functions hosted in serverless platforms (AWS Lambda and Google Cloud Functions).
       - "**invokeAWSFunction-run1.py**" and **invokeAWSFunction-run2.py**" are the scripts that invoke serverless functions executed on AWS Lambda
       - "**invokeGoogleFunction.py**" is the script that invokes serverless functions executed on Google Cloud Functions
     - The implementation of state-of-the-art techniques: PT4Cloud and Metior
