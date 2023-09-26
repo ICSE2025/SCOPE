@@ -3,6 +3,7 @@ from io import BytesIO
 import base64
 import time
 
+
 def handler(event,context):
     startTime = int(round(time.time() * 1000))
     f = open(event['img'], 'rb')
