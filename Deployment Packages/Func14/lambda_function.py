@@ -2,6 +2,7 @@ import json
 from urllib.request import urlopen
 from time import time
 
+
 def lambda_handler(event, context):
     link = event['link']  # https://github.com/jdorfman/awesome-json-datasets
 
