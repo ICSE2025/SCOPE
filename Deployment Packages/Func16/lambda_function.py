@@ -10,7 +10,6 @@ from time import time
 import re
 import io
 
-
 s3_client = boto3.client('s3')
 
 cleanup_re = re.compile('[^a-z]+')
