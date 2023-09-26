@@ -18,7 +18,6 @@ def cleanup(sentence):
     sentence = cleanup_re.sub(' ', sentence).strip()
     return sentence
 
-
 def lambda_handler(event, context):
     x = event['x']
     # x='The ambiance is magical. The food and service was nice! The lobster and cheese was to die for and our steaks were cooked perfectly.'
