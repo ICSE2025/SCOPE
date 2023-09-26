@@ -6,7 +6,6 @@ import torch
 from torchvision import transforms
 from torchvision.models import resnet50
 
-
 import storage
 client = storage.storage.get_instance()
 
