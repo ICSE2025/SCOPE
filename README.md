@@ -21,25 +21,30 @@
         
 - Other figure results:
     - **Cold starts** for SCOPE 2 in different numbers of repetitions of the run interval:
-        - <img width="581" alt="image" src="https://user-images.githubusercontent.com/79156929/227688371-cd362c4f-42f4-4ebc-8aa7-e8a54d028858.png">
+        - <img width="1344" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/b6c30ec8-7966-4a53-8558-e8aa30863135">
+
     - **Warm starts**:
         - Different constraints of the stop criterion: PT4Cloud, Metior
-            - <img width="433" alt="image" src="https://user-images.githubusercontent.com/79156929/227689330-3dcb1d45-00c3-41c8-a56a-faaef77ab1b6.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689762-c5ca9ae7-efd5-4e7f-a48d-8fb5d9666b34.png">
+            - <img width="1343" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/487a2384-8755-4448-b7dd-cd10710d8aec">
+            - <img width="1342" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/57161a20-69c1-42e0-8b74-8009466bdf73">
+
         
         - Different numbers of repetitions of the run interval: PT4Cloud, Metior
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689777-1f6efa89-b240-48b4-b3f5-075e3f4e1081.png">
-            - <img width="434" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/f04d45bd-5a9b-470f-94e7-4c8a898bf42f">
+            - <img width="1342" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/ec266241-4c2a-4dfd-bd72-7552b9be8ff4">
+            - <img width="1342" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/db7121d2-c911-4286-8d61-5e545d5fcb83">
+
         
         - Different constraints of our stop criterion: SCOPE 1, SCOPE 2, SCOPE 3
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689416-5c02c6a1-e523-4100-b35c-5516a65e4b00.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689427-d759c104-fdae-4e79-8382-6b02feadf312.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689438-ff132f94-563f-44ed-8733-9e66a61d0d5f.png">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/69a270ff-7007-41d2-b117-d1c70c05150e">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/573e53ee-85f5-4bd8-a7b8-3359edd34fab">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/c170facd-3da8-40f7-9df3-4e09b378bd38">
+
         
         - Different numbers of repetitions of the run interval: SCOPE 1, SCOPE 2, SCOPE 3
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689449-45dd4649-4464-4411-a703-83c2a9c94b78.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689465-bbc1d72b-ad27-48e3-ae1c-c7f9dc88491d.png">
-            - <img width="434" alt="image" src="https://user-images.githubusercontent.com/79156929/227689486-0045944d-2875-4da2-8144-9b7a20fd99c0.png">
+            - <img width="1343" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/f391f65a-2571-445b-bedf-ce4213a3e533">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/5311ec18-f5e7-437a-be19-32e3f756ffd8">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/f66ffd6c-94e2-4d7e-8357-1c304c3194fa">
+
 
 
 
