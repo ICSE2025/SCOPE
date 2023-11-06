@@ -25,7 +25,7 @@
 
     - **Warm starts**:
         - Different constraints of the stop criterion: PT4Cloud, Metior
-            - <img width="1343" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/487a2384-8755-4448-b7dd-cd10710d8aec">
+            - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/3a7b3ecc-5a6d-44d0-a30c-851e31fe3ba2">
             - <img width="1342" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/57161a20-69c1-42e0-8b74-8009466bdf73">
 
         
