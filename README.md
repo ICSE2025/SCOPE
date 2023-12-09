@@ -47,11 +47,12 @@
 
 
 
-## Function types and performance testing results (examples)
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+## Function types and performance testing results (examples under cold starts)
+|  FuncID   | Type  | Pt4Cloud | Metior | SCOPE |
+|  ----  | ----  | ----  | ----  | ----  |
+| Func5 | Image processing | 27.55%  | 8.79% | 95.53% |
+| Func5 | Image processing | 27.55%  | 8.79% | 95.53% |
+
 
 
 
