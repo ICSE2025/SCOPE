@@ -48,10 +48,21 @@
 
 
 #### Function types and performance testing results (examples under cold starts)
-|  FuncID   | Type  | Pt4Cloud | Metior | SCOPE |
+|  FuncID   | Type  | PT4Cloud (accuracy) | Metior (accuracy) | SCOPE(accuracy) |
 |  ----  | ----  | ----  | ----  | ----  |
-| Func5 | Image processing | 27.55%  | 8.79% | 95.53% |
-| Func5 | Image processing | 27.55%  | 8.79% | 95.53% |
+| Func17 | Image processing | 81.54%  | 80.07% | 99.10% |
+| Func28 | Image processing | 58.21%  | 64.46% | 97.80% |
+| Func20 | Image processing | 43.48%  | 43.48% | 84.51% |
+| Func50 | Image processing | 81.17%  | 80.72% | 99.38% |
+| Func15 | Natural language processing | 74.90%  | 93.41% | 98.70% |
+| Func16 | Natural language processing | 87.93%  | 88.21% | 98.77% |
+| Func61 | Natural language processing | 92.93%  | 78.70% | 96.21% |
+| Func62 | Natural language processing | 61.44%  | 66.69% | 97.78% |
+| Func22 | Video processing | 41.07%  | 58.99% | 93.19% |
+| Func40 | Video processing | 31.59%  | 31.59% | 94.49%|
+| Func41 | Video processing | 45.86%  | 69.11% | 98.90%|
+| Func42 | Video processing | 74.45%  | 81.81% | 99.06%|
+
 
 
 
