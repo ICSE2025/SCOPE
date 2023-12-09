@@ -1,12 +1,12 @@
 # SCOPE: Performance Testing for Serverless Computing
 
-## Data:
+- Data:
     - The details of serverless functions from an existing dataset (including 65 serverless functions):
         - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
     - The performance data of serverless functions:
         - see the file "**Performance Data.xlsx**", containing 1,000 performance results of each serverless function that is repeatedly executed.
 
-## Code：
+- Code：
     - We made publicly available the deployment packages for the 65 serverless functions we used.
         - see the directory "**Deployment Packages**", containing the source code from func1 to func65.
         - see the included directory "**input**", containing the long input payload sample about func20, func29, func54, func56, func57, and func60.
@@ -19,7 +19,7 @@
         - see the file "**SCOPE.py**" and use the method "determineStopRun" with different variants: general, bootstrapping, and block bootstrapping. Moreover, **the evaluation of testing results is in the method - identifyEffectiveness.**
         
         
-## Other figure results:
+- Other figure results:
     - **Cold starts** for SCOPE 2 in different numbers of repetitions of the run interval:
         - <img width="1344" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/b6c30ec8-7966-4a53-8558-e8aa30863135">
 
