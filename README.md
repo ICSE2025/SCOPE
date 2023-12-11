@@ -1,11 +1,15 @@
 # SCOPE: Performance Testing for Serverless Computing
 
+
+NEW!!!
+
+We upload the additional performance data of 500 runs to analyze trustworthy ground truth. see the file "additional_500_performance data.xlsx"
+
 - Data:
     - The details of serverless functions from an existing dataset (including 65 serverless functions):
         - see the file "**Dataset - Serverless Functions.xlsx**", containing the function ID, function name, tested input, executed serverless platform, programming language, timeout time (second), memory size (MB), and code link.
     - The performance data of serverless functions:
         - see the file "**Performance Data.xlsx**", containing 1,000 performance results of each serverless function that is repeatedly executed.
-        - <font color=BLUE>see the file "**additional_500_performance data.xlsx**". we upload the additional performance data of 500 runs for analyzing trustworthy ground truth.</font>
 
 - Code：
     - We made publicly available the deployment packages for the 65 serverless functions we used.
