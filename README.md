@@ -3,7 +3,7 @@
 
 NEW!!!
 
-We upload the additional performance data of 500 runs to analyze trustworthy ground truth. Please see the file "Additional_500_performance data.xlsx"
+We provide the additional performance data of 500 runs to analyze trustworthy ground truth. Please see the file "Additional_500_performance data.xlsx"
 
 ---
 
