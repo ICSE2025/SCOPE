@@ -5,7 +5,9 @@ NEW!!!
 
 We provide the additional performance data of 500 runs to analyze trustworthy ground truth. Please see the file "Additional_500_performance data.xlsx"
 
-The performance obtained by SCOPE is compared with the ground truth with 1,500 repetitions. In cold starts and warm starts, the accuracy is 96.81% and 96.25%, respectively. Thus, SCOPE can obtain the performance testing result with **96.53%** mean accuracy when compared with the ground truth with 1,500 repetitions
+The performance obtained by SCOPE is compared with the ground truth with 1,400 repetitions. In cold starts and warm starts, the accuracy is 96.96% and 96.39%, respectively. Thus, SCOPE can obtain the performance testing result with 96.67% mean accuracy when compared with the ground truth with 1,400 repetitions.
+
+The performance obtained by SCOPE is compared with the ground truth with 1,500 repetitions. In cold starts and warm starts, the accuracy is 96.81% and 96.25%, respectively. Thus, SCOPE can obtain the performance testing result with 96.53% mean accuracy when compared with the ground truth with 1,500 repetitions.
 
 ---
 
