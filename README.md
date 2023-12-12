@@ -3,7 +3,7 @@
 
 NEW!!!
 
-We upload the additional performance data of 500 runs to analyze trustworthy ground truth. Please see the file "additional_500_performance data.xlsx"
+We upload the additional performance data of 500 runs to analyze trustworthy ground truth. Please see the file "Additional_500_performance data.xlsx"
 
 ---
 
@@ -52,23 +52,6 @@ We upload the additional performance data of 500 runs to analyze trustworthy gro
             - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/5311ec18-f5e7-437a-be19-32e3f756ffd8">
             - <img width="1346" alt="image" src="https://github.com/FSE24/SCOPE/assets/79156929/f66ffd6c-94e2-4d7e-8357-1c304c3194fa">
 
-
-
-#### Function types and performance testing results (examples under cold starts)
-|  FuncID   | Type  | PT4Cloud (accuracy) | Metior (accuracy) | SCOPE(accuracy) |
-|  ----  | ----  | ----  | ----  | ----  |
-| Func17 | Image processing | 81.54%  | 80.07% | 99.10% |
-| Func28 | Image processing | 58.21%  | 64.46% | 97.80% |
-| Func20 | Image processing | 43.48%  | 43.48% | 84.51% |
-| Func50 | Image processing | 81.17%  | 80.72% | 99.38% |
-| Func15 | Natural language processing | 74.90%  | 93.41% | 98.70% |
-| Func16 | Natural language processing | 87.93%  | 88.21% | 98.77% |
-| Func61 | Natural language processing | 92.93%  | 78.70% | 96.21% |
-| Func62 | Natural language processing | 61.44%  | 66.69% | 97.78% |
-| Func22 | Video processing | 41.07%  | 58.99% | 93.19% |
-| Func40 | Video processing | 31.59%  | 31.59% | 94.49%|
-| Func41 | Video processing | 45.86%  | 69.11% | 98.90%|
-| Func42 | Video processing | 74.45%  | 81.81% | 99.06%|
 
 
 
