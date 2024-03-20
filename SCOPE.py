@@ -451,7 +451,7 @@ if __name__ == "__main__":
     # 1. data preparation
 
     # read tested data from the file, where raw data is saved.
-    workbook=open_workbook('Performance Data.xlsx')
+    workbook=open_workbook('PerformanceData.xlsx')
 
     # select the sheet label to be tested
     sheet_name = "Cold-start performance"
