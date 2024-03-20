@@ -369,7 +369,7 @@ if __name__ == "__main__":
     # 1. data preparation
 
     # read tested data from the file, where raw data is saved.
-    workbook=open_workbook('Performance Data.xlsx')
+    workbook=open_workbook('PerformanceData.xlsx')
 
     # select the sheet label to be tested
     sheet_name = "Cold-start performance"
@@ -384,11 +384,11 @@ if __name__ == "__main__":
     # the number of performance data to be tested
     test_number = 50
 
-    # read the corresponding performance data, 1 represents the column titile, removing it
+    # read the corresponding performance data, 1 represents the column title, removing it
     testData = x[1:test_number+1] 
 
 
-    # totalData is all performance data of the ground truth, containing 1,000 points. This ground truth is used to evalaute the effectiveness of testing results
+    # totalData is all performance data of the ground truth, containing 1,000 points. This ground truth is used to evaluate the effectiveness of testing results
     totalData = x[1:1001]
 
     # 2. parameter settings
