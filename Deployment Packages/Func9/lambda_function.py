@@ -3,7 +3,6 @@ import random
 import string
 import pyaes
 
-
 def generate(length):
     letters = string.ascii_lowercase + string.digits
     return ''.join(random.choice(letters) for i in range(length))
