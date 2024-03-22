@@ -16,6 +16,7 @@ import time
 
 bucketName = "bucketwendycyn1"
 
+
 def lambda_handler(event, context):
     payload_size = event['payload_size']
     payload = "%s" %(payload_size * '0')
