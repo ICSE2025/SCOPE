@@ -15,7 +15,8 @@ s3_client = boto3.client(
 )
 bucket_name = bucketName
 config = TransferConfig(use_threads=False)
- 
+
+
 def upload_matrix(A,  filename):
      numpy.savetxt("/tmp/"+filename, A)
      s3_client.upload_file("/tmp/"+filename, bucket_name, "ChatBotData/" + filename, Config=config)
