@@ -7,7 +7,7 @@ import numpy as np
 import numpy.random as npr
 from recombinator.optimal_block_length import optimal_block_length
 
-
+# baseline 1
 def fse19method(data, interval, thresholdSim):
 
     Data_Size = len(data)
@@ -34,7 +34,7 @@ def fse19method(data, interval, thresholdSim):
         return "No"
 
 
-   
+# baseline 2
 def ase21method(data, interval, object_accu):
     
     Data_Size = len(data)
@@ -369,7 +369,7 @@ if __name__ == "__main__":
     # 1. data preparation
 
     # read tested data from the file, where raw data is saved.
-    workbook=open_workbook('PerformanceData.xlsx')
+    workbook=open_workbook('Performance_Data.xlsx')
 
     # select the sheet label to be tested
     sheet_name = "Cold-start performance"
