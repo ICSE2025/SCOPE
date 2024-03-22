@@ -17,7 +17,6 @@ model = None
 
 def handler(event,context):
   
-    
     input_bucket = event['bucket']['input']#input is image
     key = event['object']['input']
     model_bucket = event['bucket']['model'] # model is pretained model
