@@ -11,7 +11,6 @@ import numpy as np
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-
 rekognition = boto3.client('rekognition')
 s3 = boto3.client('s3')
 
