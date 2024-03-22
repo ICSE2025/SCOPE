@@ -7,6 +7,7 @@ provider:
   memorySize: 128
   timeout: 5
 
+
 functions:
   auth:
     handler: index.handler
