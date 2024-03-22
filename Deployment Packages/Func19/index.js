@@ -18,5 +18,6 @@ exports.handler = function(event, context, callback) {
     });
 }
 
+
 // event1 ={"body":"https://www.baidu.com/"}
 // handler(event1,"","")
