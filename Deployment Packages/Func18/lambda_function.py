@@ -7,7 +7,6 @@ import rnn
 
 from time import time
 
-
 s3_client = boto3.client('s3')
 tmp = "/tmp/"
 
