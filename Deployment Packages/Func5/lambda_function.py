@@ -23,7 +23,6 @@ def image_processing(file_name, image_path):
     latency = time() - start
     return latency, path_list
 
-
 def lambda_handler(event, context):
     input_bucket = event['input_bucket']
     object_key = event['object_key']
