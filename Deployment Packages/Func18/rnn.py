@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 
-
 class RNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, all_categories, n_categories, all_letters, n_letters):
         super(RNN, self).__init__()
