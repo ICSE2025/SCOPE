@@ -7,7 +7,6 @@ from time import time
 import os
 import re
 
-
 s3_client = boto3.client('s3')
 tmp = '/tmp/'
 cleanup_re = re.compile('[^a-z]+')
