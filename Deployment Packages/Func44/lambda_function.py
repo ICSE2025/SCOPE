@@ -9,6 +9,7 @@ import os
 from multiprocessing import Process, Manager
 from params import *
 
+
 def handler(event, context):
     if('dummy' in event) and (event['dummy'] == 1):
         print("Dummy call in ML Tune, doing nothing")
