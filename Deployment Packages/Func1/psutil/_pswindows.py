@@ -4,6 +4,7 @@
 
 """Windows platform implementation."""
 
+
 import contextlib
 import errno
 import functools
