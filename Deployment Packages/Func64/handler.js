@@ -5,6 +5,7 @@ const AWS = require('aws-sdk'); // eslint-disable-line import/no-extraneous-depe
 
 const s3 = new AWS.S3();
 
+
 module.exports.save = (event, context, callback) => {
   fetch(event.image_url)
     .then((response) => {
