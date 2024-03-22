@@ -28,7 +28,6 @@ def linpack(n):
 
     return result
 
-
 def lambda_handler(event, context):
     n = int(event['n'])
     result = linpack(n)
