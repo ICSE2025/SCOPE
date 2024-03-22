@@ -16,6 +16,7 @@ def main(event,context):
     endTime = 1000*time.time()
     return timestamp(response, event, startTime, endTime, 0)
 
+
 # if __name__=="__main__":
 #     print(main(
 # {
