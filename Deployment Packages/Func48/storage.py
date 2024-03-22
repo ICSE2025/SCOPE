@@ -4,6 +4,7 @@ import uuid
 
 import boto3
 
+
 class storage:
     instance = None
     client = None
