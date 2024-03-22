@@ -2,6 +2,7 @@ const util = require('util');
 const AWS = require('aws-sdk');
 const rekognition = new AWS.Rekognition();
 
+
 /**
  * Calls the Rekognition service to detect lables in an image.
  * @param event should contain "s3Bucket" and "s3Key" fields
