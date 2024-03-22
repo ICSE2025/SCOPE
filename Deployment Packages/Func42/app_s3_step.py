@@ -12,6 +12,7 @@ import os
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
+
 def delete_tmp():
     for root, dirs, files in os.walk("/tmp/", topdown=False):
        for name in files:
