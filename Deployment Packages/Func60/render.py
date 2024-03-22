@@ -7,6 +7,7 @@ import json
 import numpy as np
 import time
 
+
 def timestamp(response, event, startTime, endTime):
     stampBegin = 1000*time.time()
     prior = event['duration'] if 'duration' in event else 0
