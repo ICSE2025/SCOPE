@@ -14,6 +14,7 @@ import boto3
 import time
 # import requests
 
+
 bucketName = "bucketwendycyn1"
 # this is a handler
 def lambda_handler(event, context):
