@@ -7,6 +7,7 @@ provider:
   memorySize: 256
   timeout: 200
 
+
 functions:
   extract:
     handler: lambda_function.lambda_handler
