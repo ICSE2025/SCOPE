@@ -25,6 +25,7 @@ def handler(event, context):
         logging.error('Exception: %s. Unable to extract PII entities from message' % e)
         raise e
 
+
 # if __name__=="__main__":
 #     print(handler(
 # {
