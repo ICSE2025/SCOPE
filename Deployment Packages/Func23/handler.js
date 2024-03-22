@@ -6,6 +6,7 @@ function randomPrice() {
     return (dollars + (cents * .01)).toFixed(2);
 }
 
+
 module.exports.main = function(event, context, callback) {
     console.log('Function getPrice running.');
 
