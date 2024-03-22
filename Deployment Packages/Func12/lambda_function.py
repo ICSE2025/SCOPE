@@ -21,7 +21,7 @@ def handler(event,context):
 
 
 # if __name__ == "__main__":
-#     # f = open('test.jpg', 'rb')
+#     # f = open('testi.jpg', 'rb')
 #     # img = Image.open('test.jpg')
 #     # img = img.resize((200, 200), Image.ANTIALIAS)
 #     # t = open('t.jpg', 'w')
