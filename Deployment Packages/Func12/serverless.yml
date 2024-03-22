@@ -7,7 +7,6 @@ provider:
   memorySize: 128
   timeout: 3
 
-
 functions:
   imageConvertorFun:
     handler: lambda_function.handler
