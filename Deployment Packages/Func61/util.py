@@ -2,6 +2,7 @@ import ctypes
 import sys
 import time
 
+
 def timestamp(response, event, startTime, endTime, externalServicesTime):
     stampBegin = 1000*time.time()
     prior = event['duration'] if 'duration' in event else 0
