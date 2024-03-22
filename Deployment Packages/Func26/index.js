@@ -8,6 +8,7 @@ Promise.promisifyAll(gm.prototype);
 // get reference to S3 client
 const s3 = new AWS.S3();
 
+
 exports.handler= (event, context, callback) => {
 	// Read input from the event.
 	console.log("Reading input from event:\n", util.inspect(event, { depth: 5 }));
