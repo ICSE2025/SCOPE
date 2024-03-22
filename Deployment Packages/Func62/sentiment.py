@@ -9,6 +9,7 @@ nltk.data.path.append('nltk_data/')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from util import *
 
+
 def main(event, context):
     startTime = 1000*time.time()
     sid = SentimentIntensityAnalyzer()
