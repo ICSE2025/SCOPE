@@ -7,6 +7,7 @@ import numpy as np
 import numpy.random as npr
 from recombinator.optimal_block_length import optimal_block_length
 
+# This is SCOPE, which provides three types of CI implementation methods: general, bootstrapping, and block bootstrapping.
 def determineStopRun(data, interval, CImethod, confidence_level, error_bound):
 
     Data_Size = len(data)
@@ -451,7 +452,7 @@ if __name__ == "__main__":
     # 1. data preparation
 
     # read tested data from the file, where raw data is saved.
-    workbook=open_workbook('PerformanceData.xlsx')
+    workbook=open_workbook('Performance_Data.xlsx')
 
     # select the sheet label to be tested
     sheet_name = "Cold-start performance"
