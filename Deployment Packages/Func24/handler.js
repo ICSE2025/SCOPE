@@ -1,6 +1,5 @@
 'use strict';
 
-
 module.exports.main = function(event, context, callback) {
     console.log('Function publish running.');
 
