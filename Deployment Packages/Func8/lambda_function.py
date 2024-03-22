@@ -1,7 +1,6 @@
 import numpy as np
 from time import time
 
-
 def matmul(n):
     A = np.random.rand(n, n)
     B = np.random.rand(n, n)
