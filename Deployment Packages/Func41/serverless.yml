@@ -7,6 +7,7 @@ provider:
   memorySize: 128
   timeout: 10
 
+
 functions:
   video:
     handler: lambda_function.lambda_handler
