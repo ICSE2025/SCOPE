@@ -7,6 +7,7 @@ import uuid
 # from rdrand import RdRandom
 init_ed = time.time() * 1000
 
+
 def hello_world(requrst):
     """Responds to any HTTP request.
     Args:
