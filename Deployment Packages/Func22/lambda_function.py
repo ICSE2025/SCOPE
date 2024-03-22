@@ -9,7 +9,6 @@ tmp = "/tmp/"
 FILE_NAME_INDEX = 0
 FILE_PATH_INDEX = 2
 
-
 def video_processing(object_key, video_path):
     file_name = object_key.split(".")[FILE_NAME_INDEX]
     result_file_path = tmp+file_name+'-output.avi'
