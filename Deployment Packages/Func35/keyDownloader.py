@@ -16,6 +16,7 @@ import os
 bucketName = "bucketwendycyn"
 defaultKey = "loopTime.txt"
 
+
 def lambda_handler(event, context):
     startTime = GetTime()
     if 'key' in event:
