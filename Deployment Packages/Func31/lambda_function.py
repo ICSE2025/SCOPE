@@ -5,7 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 s3 = boto3.resource('s3')
 s3_client = boto3.client('s3')
 
-
 def lambda_handler(event, context):
     bucket = event['input_bucket']
     s3_bucket = s3.Bucket(bucket)
