@@ -11,7 +11,6 @@ def float_operations(n):
     latency = time() - start
     return latency
 
-
 def lambda_handler(event, context):
     n = int(event['n'])
     result = float_operations(n)
